@@ -2,12 +2,15 @@ import styled from "styled-components";
 
 export const ContentContainer = styled.header`
   min-height: 66px;
-  /* box-shadow: 0px 4px 4px 0px #f9f9f9; */
-
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  top: 0;
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
+  background: white;
+  z-index: 10;
 `;
 
 export const Container = styled.div`

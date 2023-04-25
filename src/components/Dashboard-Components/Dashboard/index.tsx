@@ -5,6 +5,9 @@ import { Container, ContentContainer } from "./styles";
 
 import imgApresentation1 from "../../../assets/img-apresentation1.svg";
 import imgApresentation2 from "../../../assets/img-apresentation2.svg";
+import { PreviewTransformation } from "../../PreviewTransformation-Components/PreviewTransformation";
+import { LocationGoogleMaps } from "../../LocationGoogleMaps";
+import { Footer } from "../../Footer";
 
 export function Dashboard() {
   return (
@@ -31,6 +34,11 @@ export function Dashboard() {
         tag1="Transformações incríveis"
         tag2="faça o curso e deixe os seus clientes satifeitos"
       />
+      <Container>
+        <PreviewTransformation />
+        <LocationGoogleMaps />
+        <Footer />
+      </Container>
     </ContentContainer>
   );
 }

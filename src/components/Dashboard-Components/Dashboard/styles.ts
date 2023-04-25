@@ -5,7 +5,12 @@ export const ContentContainer = styled.div`
 `;
 
 export const Container = styled.div`
+  :first-child {
+    margin-top: 100px;
+  }
   max-width: 1080px;
   min-width: 300px;
   margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
 `;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
   width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -9,8 +10,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: var(--blue-100);
-  color: var(--blue);
+  background: #f4f3d2;
+  color: #928c04;
 
   h1 {
     padding-left: 8px;

@@ -1,4 +1,4 @@
-import { Container, Img, ContentTitle } from "./style";
+import { Container, Img, ContentTitle, ContentImg } from "./style";
 import Image from "next/image";
 
 interface ApresentationImagesDesignProps {
@@ -20,14 +20,16 @@ export function ApresentationImagesDesign({
     <Container mt={mt} mb={mb}>
       {typeDesign === "padrao" && (
         <>
-          <Img style={{ position: "relative" }}>
-            <Image
-              className="border-introduction"
-              src={img}
-              alt=""
-              fill={true}
-            />
-          </Img>
+          <ContentImg>
+            <Img style={{ position: "relative", overflow: "hidden" }}>
+              <Image
+                style={{ objectFit: "cover" }}
+                src={img}
+                alt=""
+                fill={true}
+              />
+            </Img>
+          </ContentImg>
           <ContentTitle>
             <h1>Design profissional de sobrancelhas</h1>
             <h2>
@@ -44,9 +46,16 @@ export function ApresentationImagesDesign({
               Aprenda técnicas avançadas de beleza e mude a vida das pessoas.
             </h1>
           </ContentTitle>
-          <Img style={{ position: "relative" }}>
-            <Image src={img} alt="" fill={true} />
-          </Img>
+          <ContentImg>
+            <Img style={{ position: "relative", overflow: "hidden" }}>
+              <Image
+                style={{ objectFit: "cover" }}
+                src={img}
+                alt=""
+                fill={true}
+              />
+            </Img>
+          </ContentImg>
         </>
       )}
     </Container>

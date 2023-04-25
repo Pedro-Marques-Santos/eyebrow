@@ -9,6 +9,9 @@ export const Container = styled.div<ContainerProps>`
   display: flex;
   margin-bottom: ${(props) => props.mb};
   margin-top: ${(props) => props.mt};
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const ContentTitle = styled.div`
@@ -26,6 +29,11 @@ export const ContentTitle = styled.div`
     letter-spacing: -0.02em;
     text-align: center;
     margin-bottom: 10px;
+    @media (max-width: 700px) {
+      width: 100%;
+      max-width: 350px;
+      font-size: 21px;
+    }
   }
 
   h2 {
@@ -35,12 +43,33 @@ export const ContentTitle = styled.div`
     letter-spacing: -0.02em;
     text-align: center;
     color: var(--gray-500);
+    @media (max-width: 700px) {
+      font-size: 17px;
+    }
+  }
+  @media (max-width: 700px) {
+    width: 100%;
+    order: 1;
   }
 `;
 
 export const Img = styled.div`
-  border: 1px solid red;
+  max-width: 433px;
+  min-height: 341px;
+  margin: 0 auto;
 
+  img {
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+  }
+`;
+
+export const ContentImg = styled.div`
   width: 50%;
-  min-height: 300px;
+  @media (max-width: 700px) {
+    width: 100%;
+    order: 0;
+    margin-bottom: 15px;
+  }
 `;
