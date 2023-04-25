@@ -9,7 +9,7 @@ import {
   PagesXl,
 } from "./styles";
 
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.png";
 
 import { MdOutlineDensitySmall } from "react-icons/md";
 import { useState } from "react";
@@ -21,7 +21,7 @@ export function Header() {
     <ContentContainer>
       <Container>
         <Menu>
-          <Image src={logo} width={100} height={66} alt="" />
+          <Image src={logo} width={139} height={65} quality={100} alt="" />
           <PagesXl>
             <ItemMenu>WhatsApp</ItemMenu>
             <ItemMenu>Cursos</ItemMenu>

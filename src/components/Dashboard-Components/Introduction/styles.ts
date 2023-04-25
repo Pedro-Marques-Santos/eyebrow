@@ -23,7 +23,7 @@ export const WelcomeIntroduction = styled.div`
     width: 150px;
     border-radius: 60px;
     padding: 16px 32px 16px 32px;
-    background: var(--blue);
+    background: var(--yellow);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ export const TagIntroduction = styled.div`
   letter-spacing: -0.02em;
 
   strong {
-    color: var(--blue);
+    color: var(--yellow);
   }
 
   @media (max-width: 700px) {

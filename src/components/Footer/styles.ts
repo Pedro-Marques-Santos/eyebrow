@@ -40,7 +40,7 @@ export const ContainerIcons = styled.div`
     font-size: 25px;
     margin-right: 20px;
     a {
-      color: peru;
+      color: var(--yellow);
     }
   }
 `;

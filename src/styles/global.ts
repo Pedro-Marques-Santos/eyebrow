@@ -8,6 +8,8 @@ export const GlobalStyle = createGlobalStyle`
     --black: #000000;
     --white: #FFFFFF;
     --box-shadow-header: #F5F5F5;
+    --yellow: #928c04;
+    --yellow-100: #f4f3d2;
   } 
   * {
       margin: 0;

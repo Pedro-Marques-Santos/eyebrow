@@ -23,7 +23,7 @@ export const Container = styled.div`
   i {
     display: none;
     font-size: 23px;
-    color: gray;
+    color: var(--yellow);
     cursor: pointer;
     @media (max-width: 700px) {
       display: flex;
@@ -54,6 +54,8 @@ interface MenuSmallProps {
 }
 
 export const MenuSmall = styled.div<MenuSmallProps>`
+  margin-top: 15px;
+  padding-left: 12px;
   display: ${(props) => (props.stateProgressBar ? "flex" : "none")};
   flex-direction: column;
   @media (min-width: 700px) {
