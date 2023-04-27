@@ -1,6 +1,6 @@
 import { Container, Img, WelcomeIntroduction, TagIntroduction } from "./styles";
 
-import imgIntroduction from "../../../assets/introduction.svg";
+import imgIntroduction from "../../../assets/img-new-introduction.svg";
 import Image from "next/image";
 
 export function Introduction() {
@@ -8,10 +8,9 @@ export function Introduction() {
     <Container>
       <WelcomeIntroduction>
         <TagIntroduction>
-          Venha aprender técnicas <strong>avançadas</strong> de design de
-          sobrancelhas
+          Venha deixar seu <strong>autoestima</strong> lá em cima com as
+          sobrancelhas maravilhosas
         </TagIntroduction>
-        <h5>Curso completo</h5>
         <button>Contatos</button>
       </WelcomeIntroduction>
       <Img style={{ position: "relative" }}>

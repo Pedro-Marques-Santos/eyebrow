@@ -68,9 +68,10 @@ export const TagIntroduction = styled.div`
 
 export const Img = styled.div`
   width: 50%;
-  min-height: 324px;
+  min-height: 400px;
   display: flex;
   justify-content: center;
+  border-radius: 21px;
   @media (max-width: 700px) {
     width: 100%;
   }

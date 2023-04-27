@@ -8,6 +8,7 @@ import imgApresentation2 from "../../../assets/img-apresentation2.svg";
 import { PreviewTransformation } from "../../PreviewTransformation-Components/PreviewTransformation";
 import { LocationGoogleMaps } from "../../LocationGoogleMaps";
 import { Footer } from "../../Footer";
+import { OurMainProcedures } from "../../OurMainProcedures-Components/OurMainProcedures";
 
 export function Dashboard() {
   return (
@@ -15,20 +16,9 @@ export function Dashboard() {
       <Container>
         <Introduction />
       </Container>
-      <AboutNextInformation
-        tag1="Aprecie a beleza dos seus olhos"
-        tag2="Com serviços e produtos de alta qualidade"
-      />
+      <AboutNextInformation tag1="Nossos Principais Procedimentos" />
       <Container>
-        <ApresentationImagesDesign
-          typeDesign={"padrao"}
-          img={imgApresentation1}
-        />
-        <ApresentationImagesDesign
-          typeDesign={"onetext"}
-          mt="80px"
-          img={imgApresentation2}
-        />
+        <OurMainProcedures />
       </Container>
       <AboutNextInformation
         tag1="Transformações incríveis"

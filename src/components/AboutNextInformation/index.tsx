@@ -2,7 +2,7 @@ import { Container } from "./styles";
 
 interface AboutNextInformationProps {
   tag1: string;
-  tag2: string;
+  tag2?: string;
 }
 
 export function AboutNextInformation({

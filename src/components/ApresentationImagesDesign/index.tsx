@@ -14,7 +14,6 @@ export function ApresentationImagesDesign({
   mb,
   img,
 }: ApresentationImagesDesignProps) {
-  console.log(typeDesign);
 
   return (
     <Container mt={mt} mb={mb}>
