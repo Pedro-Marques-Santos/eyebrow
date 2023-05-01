@@ -9,6 +9,7 @@ import { PreviewTransformation } from "../../PreviewTransformation-Components/Pr
 import { LocationGoogleMaps } from "../../LocationGoogleMaps";
 import { Footer } from "../../Footer";
 import { OurMainProcedures } from "../../OurMainProcedures-Components/OurMainProcedures";
+import { AboutMe } from "../../AboutMe";
 
 export function Dashboard() {
   return (
@@ -26,6 +27,13 @@ export function Dashboard() {
       />
       <Container>
         <PreviewTransformation />
+      </Container>
+      <AboutNextInformation
+        tag1="Aprecie a beleza dos seus olhos"
+        tag2="Com serviços e produtos de alta qualidade"
+      />
+      <Container>
+        <AboutMe />
         <LocationGoogleMaps />
         <Footer />
       </Container>
