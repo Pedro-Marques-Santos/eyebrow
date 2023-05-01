@@ -11,7 +11,7 @@ export function AboutMe() {
         <Image src={imgAboutMe} alt="" fill={true} />
       </Img>
       <ContainerText>
-        <h1>Sobre o Studio</h1>
+        <h1>Sobre o Estudio</h1>
         <h2>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industries standard dummy text ever

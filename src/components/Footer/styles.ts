@@ -1,46 +1,68 @@
 import styled from "styled-components";
 
-export const Container = styled.footer`
-  a {
+export const Container = styled.div`
+  max-width: 1080px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-left: 8px;
+  padding-right: 8px;
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    text-align: center;
     color: black;
   }
-  margin-bottom: 100px;
+`;
+
+export const ContentContainer = styled.footer`
+  background: var(--yellow-100);
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+`;
+
+export const Title = styled.div`
+  margin-bottom: 20px;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 37px;
+  letter-spacing: -0.02em;
+  text-align: center;
+`;
+
+export const ContainerContactAndLocation = styled.div`
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
   h1 {
-    font-family: "Oswald";
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 33px;
+    line-height: 36px;
     letter-spacing: -0.02em;
+    text-align: left;
   }
 
   h2 {
-    margin-top: 5px;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 26px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
     letter-spacing: -0.02em;
+    text-align: left;
   }
-
-  h3 {
-    margin-top: 40px;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: -0.02em;
-    color: #494ec9;
+  @media (max-width: 700px) {
+    flex-direction: column;
   }
-  margin-top: 100px;
 `;
 
-export const ContainerIcons = styled.div`
-  margin-top: 15px;
-  i {
-    cursor: pointer;
-    font-size: 25px;
-    margin-right: 20px;
-    a {
-      color: var(--yellow);
+export const ContactAndLocation = styled.div`
+  width: 50%;
+  @media (max-width: 700px) {
+    width: 100%;
+    :first-child {
+      margin-bottom: 20px;
     }
   }
 `;

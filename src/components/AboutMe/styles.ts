@@ -28,8 +28,6 @@ export const ContainerText = styled.div`
     line-height: 50px;
     letter-spacing: -0.02em;
     text-align: center;
-    @media (max-width: 700px) {
-    }
   }
 
   h2 {
@@ -39,8 +37,6 @@ export const ContainerText = styled.div`
     line-height: 37px;
     letter-spacing: -0.02em;
     text-align: center;
-    @media (max-width: 700px) {
-    }
   }
   @media (max-width: 700px) {
     width: 100%;

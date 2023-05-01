@@ -34,9 +34,8 @@ export function Dashboard() {
       />
       <Container>
         <AboutMe />
-        <LocationGoogleMaps />
-        <Footer />
       </Container>
+      <Footer />
     </ContentContainer>
   );
 }
