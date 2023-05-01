@@ -2,7 +2,7 @@ import { Container, ContainerText, Img } from "./styles";
 
 import Image from "next/image";
 
-import imgAboutMe from "../../assets/about-jennifer/img-jennifer-aboutMe.svg";
+import imgAboutMe from "../../assets/about-jennifer/img-aboutme.svg";
 
 export function AboutMe() {
   return (
