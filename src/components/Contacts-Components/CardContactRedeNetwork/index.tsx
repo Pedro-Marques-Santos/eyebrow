@@ -22,7 +22,7 @@ export function CardContactRedeNetWork({
   link,
 }: CardContactRedeNetWorkProps) {
   return (
-    <Container href={link}>
+    <Container href={link} target="_blank">
       <ContentImgAndDescription>
         <Img style={{ position: "relative" }}>
           <Image src={img} alt="" fill={true} />

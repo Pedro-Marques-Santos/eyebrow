@@ -24,7 +24,7 @@ export function CardContacts() {
             description1={"Jeniffer Sardeli"}
             description2={"(19)998159979"}
             network={"WhatsApp"}
-            link="https://api.whatsapp.com/message/F22U4T7NKDDNL1?autoload=1&app_absent=0"
+            link="https://wa.me/19998159979"
           />
           <CardContactRedeNetWork
             img={imgFacebook}

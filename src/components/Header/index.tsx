@@ -28,7 +28,7 @@ export function Header() {
             <ItemMenu
               onClick={() => {
                 Router.push(
-                  "https://api.whatsapp.com/message/F22U4T7NKDDNL1?autoload=1&app_absent=0"
+                  "https://web.whatsapp.com/send?phone=5519998159979"
                 );
               }}
             >
@@ -49,10 +49,22 @@ export function Header() {
           </i>
         </Menu>
         <MenuSmall stateProgressBar={progressBar}>
-          <ItemMenuSm>WhatsApp</ItemMenuSm>
+          <ItemMenuSm
+            onClick={() => {
+              Router.push("wa.me/message/F22U4T7NKDDNL1");
+            }}
+          >
+            WhatsApp
+          </ItemMenuSm>
           <ItemMenuSm>Cursos</ItemMenuSm>
           <ItemMenuSm>Antes e depois</ItemMenuSm>
-          <ItemMenuSm>Contatos</ItemMenuSm>
+          <ItemMenuSm
+            onClick={() => {
+              Router.push("/contacts");
+            }}
+          >
+            Contatos
+          </ItemMenuSm>
         </MenuSmall>
       </Container>
     </ContentContainer>
