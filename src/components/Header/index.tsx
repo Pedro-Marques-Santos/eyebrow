@@ -13,8 +13,7 @@ import logo from "../../assets/logo.png";
 
 import { MdOutlineDensitySmall } from "react-icons/md";
 import { useState } from "react";
-
-import Router from "next/router";
+import { openContacts, openWhatsApp } from "./itensMenu";
 
 export function Header() {
   const [progressBar, setProgressBar] = useState(false);
@@ -27,9 +26,7 @@ export function Header() {
           <PagesXl>
             <ItemMenu
               onClick={() => {
-                Router.push(
-                  "https://web.whatsapp.com/send?phone=5519998159979"
-                );
+                openWhatsApp({ setProgressBar });
               }}
             >
               WhatsApp
@@ -38,7 +35,7 @@ export function Header() {
             <ItemMenu>Antes e depois</ItemMenu>
             <ItemMenu
               onClick={() => {
-                Router.push("/contacts");
+                openContacts({ setProgressBar });
               }}
             >
               Contatos
@@ -51,7 +48,7 @@ export function Header() {
         <MenuSmall stateProgressBar={progressBar}>
           <ItemMenuSm
             onClick={() => {
-              Router.push("wa.me/message/F22U4T7NKDDNL1");
+              openWhatsApp({ setProgressBar });
             }}
           >
             WhatsApp
@@ -60,7 +57,7 @@ export function Header() {
           <ItemMenuSm>Antes e depois</ItemMenuSm>
           <ItemMenuSm
             onClick={() => {
-              Router.push("/contacts");
+              openContacts({ setProgressBar });
             }}
           >
             Contatos
