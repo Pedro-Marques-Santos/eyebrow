@@ -37,6 +37,9 @@ export const ContainerText = styled.div`
     line-height: 37px;
     letter-spacing: -0.02em;
     text-align: center;
+    @media (max-width: 700px) {
+      text-align: justify;
+    }
   }
   @media (max-width: 700px) {
     width: 100%;

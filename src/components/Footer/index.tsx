@@ -7,11 +7,6 @@ import {
   Title,
 } from "./styles";
 
-// import { BsFacebook } from "react-icons/bs";
-// import { AiOutlineInstagram } from "react-icons/ai";
-// import { AiFillLinkedin } from "react-icons/ai";
-// import { IoLogoTiktok } from "react-icons/io5";
-
 export function Footer() {
   return (
     <ContentContainer>

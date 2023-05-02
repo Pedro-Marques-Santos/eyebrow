@@ -14,6 +14,9 @@ export const Container = styled.div`
     letter-spacing: -0.02em;
     text-align: center;
     color: black;
+    @media (max-width: 700px) {
+      text-align: justify;
+    }
   }
 `;
 
