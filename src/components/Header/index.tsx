@@ -13,7 +13,7 @@ import logo from "../../assets/logo.png";
 
 import { MdOutlineDensitySmall } from "react-icons/md";
 import { useState } from "react";
-import { openContacts, openWhatsApp } from "./itensMenu";
+import { openContacts, openPaginaInicial, openWhatsApp } from "./itensMenu";
 
 export function Header() {
   const [progressBar, setProgressBar] = useState(false);
@@ -30,15 +30,20 @@ export function Header() {
               }}
             >
               WhatsApp
-            </ItemMenu>
-            <ItemMenu>Cursos</ItemMenu>
-            <ItemMenu>Antes e depois</ItemMenu>
+            </ItemMenu>{" "}
             <ItemMenu
               onClick={() => {
                 openContacts({ setProgressBar });
               }}
             >
               Contatos
+            </ItemMenu>
+            <ItemMenu
+              onClick={() => {
+                openPaginaInicial({ setProgressBar });
+              }}
+            >
+              Página Inicial
             </ItemMenu>
           </PagesXl>
           <i onClick={() => setProgressBar(!progressBar)}>
@@ -53,14 +58,19 @@ export function Header() {
           >
             WhatsApp
           </ItemMenuSm>
-          <ItemMenuSm>Cursos</ItemMenuSm>
-          <ItemMenuSm>Antes e depois</ItemMenuSm>
           <ItemMenuSm
             onClick={() => {
               openContacts({ setProgressBar });
             }}
           >
             Contatos
+          </ItemMenuSm>
+          <ItemMenuSm
+            onClick={() => {
+              openPaginaInicial({ setProgressBar });
+            }}
+          >
+            Página Inicial
           </ItemMenuSm>
         </MenuSmall>
       </Container>

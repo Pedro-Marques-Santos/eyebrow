@@ -16,4 +16,9 @@ function openContacts({ setProgressBar }: IOpenMenu) {
   Router.push("/contacts");
 }
 
-export { openWhatsApp, openContacts };
+function openPaginaInicial({ setProgressBar }: IOpenMenu) {
+  setProgressBar(false);
+  Router.push("/");
+}
+
+export { openWhatsApp, openContacts, openPaginaInicial };

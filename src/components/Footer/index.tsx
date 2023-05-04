@@ -12,11 +12,7 @@ export function Footer() {
     <ContentContainer>
       <Container>
         <Title>Contatos e Localização</Title>
-        <p>
-          entre em contato conosco para marcar uma consulta, aqui você vai
-          ganhar mais exclusividade e aprender importantes técnicas de design de
-          sobrancelhas
-        </p>
+        <p>entre em contato conosco para marcar um horário</p>
         <ContainerContactAndLocation>
           <ContactAndLocation>
             <h1>Endereço do estudio:</h1>

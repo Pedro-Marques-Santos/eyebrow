@@ -11,12 +11,12 @@ export function AboutMe() {
         <Image src={imgAboutMe} alt="" fill={true} />
       </Img>
       <ContainerText>
-        <h1>Sobre o Estudio</h1>
+        <h1>Sobre o Studio</h1>
         <h2>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industries standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+          O espaço Studio Sardeli trás a vocês o conforto de se sentir bonita e
+          com vários benefícios. Já pensou em sair daqui com as sobrancelhas
+          maravilhosas, unhas feitas e com uma limpeza de pele maravilhosa pode
+          ter certeza que o nosso espaço tem o melhor pra oferecer.
         </h2>
       </ContainerText>
     </Container>

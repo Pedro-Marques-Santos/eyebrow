@@ -3,19 +3,26 @@ import Image from "next/image";
 
 import img from "../../../assets/ourmainprocedures/img-ournprocedures-1.svg";
 
-export function CardOurMainProcedures() {
+interface ICardOurMainProceduresProps {
+  tag1: string;
+  tag2: string;
+  tag3: string;
+}
+
+export function CardOurMainProcedures({
+  tag1,
+  tag2,
+  tag3,
+}: ICardOurMainProceduresProps) {
   return (
     <ContainerContent>
       <Container>
-        <h1>Micropigmentação de Sobrancelhas</h1>
-        <h2>Técinas: Fio a Fio / Shadow</h2>
+        <h1>{tag1}</h1>
+        <h2>Técnica: {tag2}</h2>
         <Img style={{ position: "relative" }}>
           <Image src={img} alt="" fill={true} />
         </Img>
-        <p>
-          Preenchimento e estruturação das sobrancelhas com naturalidade e
-          sofisticação
-        </p>
+        <p>{tag3}</p>
       </Container>
     </ContainerContent>
   );
