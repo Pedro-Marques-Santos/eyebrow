@@ -36,15 +36,15 @@ export function OurMainProcedures() {
         tag3={
           "Uma técnica usada para pessoas que querem sobrancelhas mais naturais, porém bem desenhadas"
         }
-        img={img4}
+        img={img5}
       />
       <CardOurMainProcedures
         tag1={"Limpeza de pele"}
-        tag2={"design natural"}
+        tag2={"produtos de alta qualidade"}
         tag3={
-          "Uma técnica usada para pessoas que querem sobrancelhas mais naturais, porém bem desenhadas"
+          "Quatro Benefícios da limpeza de pele: Remover células mortas, Controle de oleosidade, Remover cravos e espinhas, Suaviza e Uniformiza a pele"
         }
-        img={img5}
+        img={img4}
       />
     </Container>
   );
