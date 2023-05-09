@@ -28,6 +28,13 @@ export function OurMainProcedures() {
           "Uma técnica usada para pessoas que querem sobrancelhas mais naturais, porém bem desenhadas"
         }
       />
+      <CardOurMainProcedures
+        tag1={"Limpeza de pele"}
+        tag2={"design natural"}
+        tag3={
+          "Uma técnica usada para pessoas que querem sobrancelhas mais naturais, porém bem desenhadas"
+        }
+      />
     </Container>
   );
 }

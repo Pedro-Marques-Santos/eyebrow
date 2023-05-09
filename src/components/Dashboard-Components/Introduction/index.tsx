@@ -20,7 +20,7 @@ export function Introduction() {
         <button onClick={handleGoPageContacts}>Contatos</button>
       </WelcomeIntroduction>
       <Img style={{ position: "relative" }}>
-        <Image src={imgIntroduction} alt="" fill={true} />
+        <Image src={imgIntroduction} alt="" fill={true} priority />
       </Img>
     </Container>
   );
