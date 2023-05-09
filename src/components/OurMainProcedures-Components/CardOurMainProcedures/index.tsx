@@ -1,18 +1,18 @@
 import { Container, ContainerContent, Img } from "./styles";
 import Image from "next/image";
 
-import img from "../../../assets/ourmainprocedures/img-ournprocedures-1.svg";
-
 interface ICardOurMainProceduresProps {
   tag1: string;
   tag2: string;
   tag3: string;
+  img: string;
 }
 
 export function CardOurMainProcedures({
   tag1,
   tag2,
   tag3,
+  img
 }: ICardOurMainProceduresProps) {
   return (
     <ContainerContent>
