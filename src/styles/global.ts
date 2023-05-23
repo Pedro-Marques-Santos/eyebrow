@@ -4,7 +4,7 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --blue: #494EC9;
     --blue-100: #D2D7F4;
-    --blue-500: #3F9BFC;
+    --blue-500: black;
     --gray-500: #595A5A;
     --gray-100: #eaecf0;
     --green-100: #12B76A1A;
@@ -26,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
 	  outline: inherit;
   }
   body {
+    background: #FEEEEE;
     font-family: 'Poppins', sans-serif;;
   }
 

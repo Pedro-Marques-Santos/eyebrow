@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   border-bottom: 1px solid #eaecf0;
-  color: var(--blue-500);
+  color: black;
   font-weight: 500;
   padding-top: 15px;
   padding-bottom: 14px;

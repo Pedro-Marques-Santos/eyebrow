@@ -34,10 +34,11 @@ export const Container = styled.div`
 export const PagesXl = styled.div`
   display: flex;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 30px;
   letter-spacing: -0.02em;
-  color: gray;
+  color: black;
+
   @media (max-width: 700px) {
     display: none;
   }

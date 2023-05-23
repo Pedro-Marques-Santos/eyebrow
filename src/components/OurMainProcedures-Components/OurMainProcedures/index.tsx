@@ -46,6 +46,22 @@ export function OurMainProcedures() {
         }
         img={img4}
       />
+      <CardOurMainProcedures
+        tag1={"Cílios"}
+        tag2={"volume brasileiro"}
+        tag3={
+          "Boa aparência para todos os tipos de olhos, altamente duráveis e delicados"
+        }
+        img={img4}
+      />
+      <CardOurMainProcedures
+        tag1={"Microlabial"}
+        tag2={"labios contornados"}
+        tag3={
+          "Técnicas para mulheres e homens que querem lábios rosados e saudáveis"
+        }
+        img={img4}
+      />
     </Container>
   );
 }

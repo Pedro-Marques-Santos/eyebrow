@@ -9,8 +9,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: var(--yellow-100);
-  color: var(--yellow);
+  background: white;
+  color: #c8458c;
 
   h1 {
     padding-left: 8px;

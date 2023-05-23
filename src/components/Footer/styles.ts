@@ -21,7 +21,7 @@ export const Container = styled.div`
 `;
 
 export const ContentContainer = styled.footer`
-  background: var(--yellow-100);
+  background: white;
   margin-top: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
