@@ -58,7 +58,7 @@ export function OurMainProcedures() {
         tag1={"Microlabial"}
         tag2={"labios contornados"}
         tag3={
-          "Técnicas para mulheres e homens que querem lábios rosados e saudáveis"
+          "Técnicas para mulheres e homens que querem lábios rosados e saudáveiss"
         }
         img={img4}
       />
