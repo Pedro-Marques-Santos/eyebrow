@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerContent = styled.div`
   width: 100%;
   max-width: 320px;
-  height: 560px;
+  height: 540px;
 
   background: white;
   border-radius: 10px;
@@ -19,10 +19,11 @@ export const ContainerContent = styled.div`
 `;
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
   margin: 0 auto;
   margin-bottom: 14px;
   max-width: 280px;
-  border: 1px solid red;
   height: 100%;
 
   h1 {
@@ -35,7 +36,7 @@ export const Container = styled.div`
   }
 
   h2 {
-    margin-bottom: 15px;
+    margin-bottom: 9px;
     font-size: 15px;
     font-weight: 400;
     line-height: 21px;
@@ -44,24 +45,29 @@ export const Container = styled.div`
   }
 
   p {
-    margin-top: 22px;
+    margin-top: 10px;
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
     letter-spacing: -0.02em;
     text-align: justify;
-    margin-bottom: 5px;
-    border: 1px solid red;
   }
 
   h3 {
     font-weight: 500;
     text-align: center;
     font-size: 18px;
-    border: 1px solid blue;
     line-height: 30px;
     letter-spacing: -0.02em;
   }
+`;
+
+export const Price = styled.div`
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-bottom: 7px;
 `;
 
 export const Img = styled.div`

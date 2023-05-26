@@ -1,4 +1,4 @@
-import { Container, ContainerContent, Img } from "./styles";
+import { Container, ContainerContent, Img, Price } from "./styles";
 import Image from "next/image";
 
 interface ICardOurMainProceduresProps {
@@ -25,12 +25,14 @@ export function CardOurMainProcedures({
           <Image src={img} alt="" fill={true} />
         </Img>
         <p>{tag3}</p>
-        <h3>
-          {price.toLocaleString("pt-BR", {
-            style: "currency",
-            currency: "BRL",
-          })}
-        </h3>
+        <Price>
+          <h3>
+            {price.toLocaleString("pt-BR", {
+              style: "currency",
+              currency: "BRL",
+            })}
+          </h3>
+        </Price>
       </Container>
     </ContainerContent>
   );
