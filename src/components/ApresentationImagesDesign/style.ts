@@ -15,15 +15,14 @@ export const Container = styled.div<ContainerProps>`
 `;
 
 export const ContentTitle = styled.div`
-  /* box-shadow: 4px 4px 4px 0px var(--box-shadow-header); */
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   h1 {
-    width: 280px;
-    font-size: 26px;
+    max-width: 310px;
+    font-size: 22.5px;
     font-weight: 500;
     line-height: 42px;
     letter-spacing: -0.02em;
@@ -41,11 +40,16 @@ export const ContentTitle = styled.div`
     font-weight: 400;
     line-height: 29px;
     letter-spacing: -0.02em;
-    text-align: center;
+    text-align: justify;
     color: var(--gray-500);
     @media (max-width: 700px) {
       font-size: 17px;
     }
+  }
+
+  h3 {
+    margin-top: 8px;
+    font-weight: 500;
   }
   @media (max-width: 700px) {
     width: 100%;

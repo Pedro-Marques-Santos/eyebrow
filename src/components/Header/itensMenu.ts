@@ -21,4 +21,9 @@ function openPaginaInicial({ setProgressBar }: IOpenMenu) {
   Router.push("/");
 }
 
-export { openWhatsApp, openContacts, openPaginaInicial };
+function openPageCursos({ setProgressBar }: IOpenMenu) {
+  setProgressBar(false);
+  Router.push("/cursos");
+}
+
+export { openWhatsApp, openContacts, openPaginaInicial, openPageCursos };

@@ -14,7 +14,7 @@ export function Introduction() {
     <Container>
       <WelcomeIntroduction>
         <TagIntroduction>
-          Venha deixar seu <strong>autoestima</strong> lá em cima com as
+          Venha deixar sua <strong>autoestima</strong> lá em cima com as
           sobrancelhas maravilhosas
         </TagIntroduction>
         <button onClick={handleGoPageContacts}>Contatos</button>

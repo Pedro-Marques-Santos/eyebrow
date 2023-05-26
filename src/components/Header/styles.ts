@@ -23,7 +23,7 @@ export const Container = styled.div`
   i {
     display: none;
     font-size: 23px;
-    color: var(--yellow);
+    color: black;
     cursor: pointer;
     @media (max-width: 700px) {
       display: flex;
@@ -74,6 +74,7 @@ export const ItemMenu = styled.div`
 
 export const ItemMenuSm = styled.div`
   cursor: pointer;
-  color: gray;
+  color: black;
+  font-weight: 500;
   margin-bottom: 14px;
 `;

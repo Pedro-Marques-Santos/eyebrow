@@ -6,13 +6,15 @@ interface ICardOurMainProceduresProps {
   tag2: string;
   tag3: string;
   img: string;
+  price: number;
 }
 
 export function CardOurMainProcedures({
   tag1,
   tag2,
   tag3,
-  img
+  img,
+  price,
 }: ICardOurMainProceduresProps) {
   return (
     <ContainerContent>
@@ -23,6 +25,12 @@ export function CardOurMainProcedures({
           <Image src={img} alt="" fill={true} />
         </Img>
         <p>{tag3}</p>
+        <h3>
+          {price.toLocaleString("pt-BR", {
+            style: "currency",
+            currency: "BRL",
+          })}
+        </h3>
       </Container>
     </ContainerContent>
   );

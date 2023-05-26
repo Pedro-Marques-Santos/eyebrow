@@ -3,6 +3,9 @@ import Image from "next/image";
 
 interface ApresentationImagesDesignProps {
   typeDesign: string;
+  title: string;
+  information: string;
+  price: number;
   mt?: string;
   mb?: string;
   img: string;
@@ -13,8 +16,10 @@ export function ApresentationImagesDesign({
   mt,
   mb,
   img,
+  price,
+  title,
+  information,
 }: ApresentationImagesDesignProps) {
-
   return (
     <Container mt={mt} mb={mb}>
       {typeDesign === "padrao" && (
@@ -24,34 +29,44 @@ export function ApresentationImagesDesign({
               <Image
                 style={{ objectFit: "cover" }}
                 src={img}
-                alt=""
+                priority
+                alt="curso vip"
                 fill={true}
               />
             </Img>
           </ContentImg>
           <ContentTitle>
-            <h1>Design profissional de sobrancelhas</h1>
-            <h2>
-              Aqui temos a técnica ideal para encontrar desenhos de sobrancelhas
-              que realçam a beleza natural de cada rosto.
-            </h2>
+            <h1>{title}</h1>
+            <h2>{information}</h2>
+            <h3>
+              {price.toLocaleString("pt-BR", {
+                style: "currency",
+                currency: "BRL",
+              })}
+            </h3>
           </ContentTitle>
         </>
       )}
-      {typeDesign === "onetext" && (
+      {typeDesign === "textfirst" && (
         <>
           <ContentTitle>
-            <h1>
-              Aprenda técnicas avançadas de beleza e mude a vida das pessoas.
-            </h1>
+            <h1>{title}</h1>
+            <h2>{information}</h2>
+            <h3>
+              {price.toLocaleString("pt-BR", {
+                style: "currency",
+                currency: "BRL",
+              })}
+            </h3>
           </ContentTitle>
           <ContentImg>
             <Img style={{ position: "relative", overflow: "hidden" }}>
               <Image
                 style={{ objectFit: "cover" }}
                 src={img}
-                alt=""
+                alt="curso em grupo"
                 fill={true}
+                priority
               />
             </Img>
           </ContentImg>

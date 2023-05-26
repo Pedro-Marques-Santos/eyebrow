@@ -5,6 +5,7 @@ import { PreviewTransformation } from "../../PreviewTransformation-Components/Pr
 import { Footer } from "../../Footer";
 import { OurMainProcedures } from "../../OurMainProcedures-Components/OurMainProcedures";
 import { AboutMe } from "../../AboutMe";
+import { MyCursos } from "../../Mycursos";
 
 export function Dashboard() {
   return (
@@ -15,6 +16,10 @@ export function Dashboard() {
       <AboutNextInformation tag1="Nossos Principais Procedimentos" />
       <Container>
         <OurMainProcedures />
+      </Container>
+      <AboutNextInformation tag1="Cursos disponíveis" />
+      <Container>
+        <MyCursos />
       </Container>
       <AboutNextInformation tag1="Transformações incríveis" />
       <Container>

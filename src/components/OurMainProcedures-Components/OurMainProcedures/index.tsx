@@ -6,6 +6,8 @@ import img2 from "../../../assets/ourmainprocedures/img-ournprocedures-2.svg";
 import img3 from "../../../assets/ourmainprocedures/img-ournprocedures-3.svg";
 import img4 from "../../../assets/ourmainprocedures/img-ournprocedures-4.svg";
 import img5 from "../../../assets/ourmainprocedures/img-ournprocedures-5.svg";
+import img6 from "../../../assets/ourmainprocedures/img-ournprocedures-6.svg";
+import img7 from "../../../assets/ourmainprocedures/img-ournprocedures-7.svg";
 
 export function OurMainProcedures() {
   return (
@@ -15,12 +17,14 @@ export function OurMainProcedures() {
         tag2={"Fio a Fio"}
         tag3={"Preenchimento de falhas e dar naturalidade a sobrancelhas"}
         img={img1}
+        price={250}
       />
       <CardOurMainProcedures
         tag1={"Micropigmentação Shadow"}
         tag2={"Shadow"}
         tag3={"Sobrancelhas mais preenchidas com efeito de Henna ou Sombra"}
         img={img2}
+        price={300}
       />
       <CardOurMainProcedures
         tag1={"Henna"}
@@ -29,6 +33,7 @@ export function OurMainProcedures() {
           "A sobrancelha de Henna é uma técnica utilizada para pessoas que gostam de sobrancelhas bem preenchidas e mais definidas"
         }
         img={img3}
+        price={100}
       />
       <CardOurMainProcedures
         tag1={"Design Simples"}
@@ -37,6 +42,7 @@ export function OurMainProcedures() {
           "Uma técnica usada para pessoas que querem sobrancelhas mais naturais, porém bem desenhadas"
         }
         img={img5}
+        price={30}
       />
       <CardOurMainProcedures
         tag1={"Limpeza de pele"}
@@ -45,6 +51,7 @@ export function OurMainProcedures() {
           "Quatro Benefícios da limpeza de pele: Remover células mortas, Controle de oleosidade, Remover cravos e espinhas, Suaviza e Uniformiza a pele"
         }
         img={img4}
+        price={70}
       />
       <CardOurMainProcedures
         tag1={"Cílios"}
@@ -52,7 +59,8 @@ export function OurMainProcedures() {
         tag3={
           "Boa aparência para todos os tipos de olhos, altamente duráveis e delicados"
         }
-        img={img4}
+        img={img6}
+        price={100}
       />
       <CardOurMainProcedures
         tag1={"Microlabial"}
@@ -60,7 +68,8 @@ export function OurMainProcedures() {
         tag3={
           "Técnicas para mulheres e homens que querem lábios rosados e saudáveiss"
         }
-        img={img4}
+        img={img7}
+        price={250}
       />
     </Container>
   );

@@ -9,11 +9,16 @@ import {
   PagesXl,
 } from "./styles";
 
-import logo from "../../assets/logo.png";
+import logo from "../../assets/header/logoblack.png";
 
 import { MdOutlineDensitySmall } from "react-icons/md";
 import { useState } from "react";
-import { openContacts, openPaginaInicial, openWhatsApp } from "./itensMenu";
+import {
+  openContacts,
+  openPageCursos,
+  openPaginaInicial,
+  openWhatsApp,
+} from "./itensMenu";
 
 export function Header() {
   const [progressBar, setProgressBar] = useState(false);
@@ -22,15 +27,22 @@ export function Header() {
     <ContentContainer>
       <Container>
         <Menu>
-          <Image src={logo} width={139} height={65} quality={100} alt="" />
+          <Image src={logo} quality={100} alt="" />
           <PagesXl>
             <ItemMenu
               onClick={() => {
-                openWhatsApp({ setProgressBar });
+                openPageCursos({ setProgressBar });
+              }}
+            >
+              Cursos
+            </ItemMenu>
+            <ItemMenu
+              onClick={() => {
+                openPageCursos({ setProgressBar });
               }}
             >
               WhatsApp
-            </ItemMenu>{" "}
+            </ItemMenu>
             <ItemMenu
               onClick={() => {
                 openContacts({ setProgressBar });
@@ -51,6 +63,13 @@ export function Header() {
           </i>
         </Menu>
         <MenuSmall stateProgressBar={progressBar}>
+          <ItemMenuSm
+            onClick={() => {
+              openPageCursos({ setProgressBar });
+            }}
+          >
+            Cursos
+          </ItemMenuSm>
           <ItemMenuSm
             onClick={() => {
               openWhatsApp({ setProgressBar });
