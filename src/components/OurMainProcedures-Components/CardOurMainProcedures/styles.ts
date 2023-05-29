@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerContent = styled.div`
   width: 100%;
   max-width: 320px;
-  height: 540px;
+  min-height: 500px;
 
   background: white;
   border-radius: 10px;
@@ -11,6 +11,7 @@ export const ContainerContent = styled.div`
     rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 
   @media (max-width: 900px) {
+    min-height: 500px;
     margin-bottom: 50px;
     :last-child {
       margin-bottom: 0px;

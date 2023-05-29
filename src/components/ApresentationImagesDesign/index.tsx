@@ -29,8 +29,9 @@ export function ApresentationImagesDesign({
               <Image
                 style={{ objectFit: "cover" }}
                 src={img}
-                priority
                 alt="curso vip"
+                quality={70}
+                priority
                 fill={true}
               />
             </Img>
@@ -66,6 +67,7 @@ export function ApresentationImagesDesign({
                 src={img}
                 alt="curso em grupo"
                 fill={true}
+                quality={70}
                 priority
               />
             </Img>
