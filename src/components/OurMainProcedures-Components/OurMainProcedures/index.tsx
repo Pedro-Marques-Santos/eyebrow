@@ -7,7 +7,7 @@ import img3 from "../../../assets/ourmainprocedures/img-ournprocedures-3.svg";
 import img4 from "../../../assets/ourmainprocedures/img-ournprocedures-4.svg";
 import img5 from "../../../assets/ourmainprocedures/img-ournprocedures-5.svg";
 import img6 from "../../../assets/ourmainprocedures/img-ournprocedures-6.svg";
-import img7 from "../../../assets/ourmainprocedures/img-ournprocedures-7.svg";
+import img7 from "../../../assets/ourmainprocedures/img-ournprocedures-8.svg";
 
 export function OurMainProcedures() {
   return (
@@ -33,7 +33,7 @@ export function OurMainProcedures() {
           "A sobrancelha de Henna é uma técnica utilizada para pessoas que gostam de sobrancelhas bem preenchidas e mais definidas"
         }
         img={img3}
-        price={100}
+        price={30}
       />
       <CardOurMainProcedures
         tag1={"Design Simples"}
@@ -42,7 +42,7 @@ export function OurMainProcedures() {
           "Uma técnica usada para pessoas que querem sobrancelhas mais naturais, porém bem desenhadas"
         }
         img={img5}
-        price={30}
+        price={15}
       />
       <CardOurMainProcedures
         tag1={"Limpeza de pele"}
