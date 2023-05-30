@@ -29,7 +29,7 @@ function MyDocument(props: any) {
 
         <meta
           property="og:url"
-          content="https://eyebrow-5j3sd4jgj-pedro-marques-santos.vercel.app/"
+          content="https://eyebrow.vercel.app/public/static/images/logostudio.jpg"
         />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Studio Sardeli" />
