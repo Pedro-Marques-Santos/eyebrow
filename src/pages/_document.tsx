@@ -27,20 +27,14 @@ function MyDocument(props: any) {
           content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade de uma profissional de sobrancelhas"
         />
 
-        <meta
-          property="og:url"
-          content="https://eyebrow.vercel.app/public/static/images/logostudio.jpg"
-        />
+        <meta property="og:url" content="/logostudio.jpg" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Studio Sardeli" />
         <meta
           property="og:description"
           content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade de uma profissional de sobrancelhas"
         />
-        <meta
-          property="og:image"
-          content="https://img.freepik.com/free-photo/beautiful-young-woman-s-eye-close-up-shot_155003-18977.jpg?w=740&t=st=1685444670~exp=1685445270~hmac=3974545eb75333b1757018820d17d8cdafc41edfde0ee06b1d15dcce9fb0f44a"
-        />
+        <meta property="og:image" content="/logostudio.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta
@@ -56,10 +50,7 @@ function MyDocument(props: any) {
           name="twitter:description"
           content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade de uma profissional de sobrancelhas"
         />
-        <meta
-          name="twitter:image"
-          content="https://img.freepik.com/free-photo/beautiful-young-woman-s-eye-close-up-shot_155003-18977.jpg?w=740&t=st=1685444670~exp=1685445270~hmac=3974545eb75333b1757018820d17d8cdafc41edfde0ee06b1d15dcce9fb0f44a"
-        />
+        <meta name="twitter:image" content="/logostudio.jpg" />
       </Head>
       <body>
         <Main />

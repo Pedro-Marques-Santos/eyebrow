@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jeniffer Sardeli</title>
+        <title>Studio Sardeli</title>
       </Head>
       <Dashboard />
     </>
