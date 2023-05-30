@@ -7,6 +7,8 @@ import Document, {
 } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 
+import logo from "../assets/logostudio.jpg";
+
 function MyDocument(props: any) {
   return (
     <Html lang="en">
@@ -20,6 +22,12 @@ function MyDocument(props: any) {
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Oswald&family=Poppins:ital,wght@0,400;0,500;0,600;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
           rel="stylesheet"
+        />
+        <meta property="og:title" content="Studio Sardeli" />
+        <meta
+          property="og:description"
+          content="Aprecie a beleza dos seus olhos
+ Com serviços e produtos de alta qualidade"
         />
       </Head>
       <body>
