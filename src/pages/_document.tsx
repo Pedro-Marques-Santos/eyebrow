@@ -24,31 +24,25 @@ function MyDocument(props: any) {
 
         <meta
           name="description"
-          content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade de uma profissional de sobrancelhas"
+          content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade que uma profissional de sobrancelhas pode fornecer a você"
         />
 
-        <meta property="og:url" content="/logostudio.jpg" />
+        <meta property="og:url" content="https://eyebrow.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Studio Sardeli" />
         <meta
           property="og:description"
-          content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade de uma profissional de sobrancelhas"
+          content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade que uma profissional de sobrancelhas pode fornecer a você"
         />
         <meta property="og:image" content="/logostudio.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta
-          property="twitter:domain"
-          content="eyebrow-5j3sd4jgj-pedro-marques-santos.vercel.app"
-        />
-        <meta
-          property="twitter:url"
-          content="https://eyebrow-5j3sd4jgj-pedro-marques-santos.vercel.app/"
-        />
+        <meta property="twitter:domain" content="eyebrow.vercel.app" />
+        <meta property="twitter:url" content="eyebrow.vercel.app" />
         <meta name="twitter:title" content="Studio Sardeli" />
         <meta
           name="twitter:description"
-          content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade de uma profissional de sobrancelhas"
+          content="Aprecie a beleza dos seus olhos com serviços e produtos de alta qualidade que uma profissional de sobrancelhas pode fornecer a você"
         />
         <meta name="twitter:image" content="/logostudio.jpg" />
       </Head>
